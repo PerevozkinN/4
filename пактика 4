@@ -1,0 +1,32 @@
+1
+print('введите скорость транспортного средстава')
+a = int(input())
+print('введите колчесто часов')
+b = int(input())
+for c in range (1, b+1):
+    print('часы',c, 'растояние',a*c)
+2
+print('введите рад чисел')
+b = 0
+while True:
+    a =int(input())
+    if a<0:
+        break
+    else:
+        b+=a
+print(b)
+3
+f= int(input())
+c=1
+for i in range(1,f+1):
+    c*=i
+print(c)
+4
+a = int(input('начальное число популяции'))
+b = float(input(% увеличения в долях))
+n = int(input(количество дней))
+d =a
+for i in range(n):
+    i +=1
+    print(i, float(d))
+    d +=a/b
